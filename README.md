@@ -31,7 +31,7 @@ of our **essential three expressions**: the _assignment expression_.
 
 In JavaScript, the assignment expression is like so:
 
-![Assignment Expression Graphic](https://curriculum-content.s3.amazonaws.com/phase-0/the-assignment-expression/Assigment-Expression.png)
+![Assignment Expression Graphic](https://curriculum-content.s3.amazonaws.com/phase-0/the-assignment-expression/assigning-a-variable.jpg)
 
 Here are some examples:
 
