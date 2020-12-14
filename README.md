@@ -74,7 +74,7 @@ Notice that `maximumSpeed = 9000`, the assignment expression, evaluates to
 `9000` when run. Once `maximumSpeed` is defined, JavaScript will know what
 it is. (We'll look at this more closely in the next lesson.)
 
-> ***SUPER-IMPORTANT***: In the assignment expression `=` means "assignment". It does not mean "what's on the left of the `=` is equal to what's on the right." In math courses, we use `=` to say that the expressions on either side of the `=` are the same. JavaScript uses `==` and `===` for that purpose. It's very common &mdash; and very confusing &mdash; for beginners to have bugs where they confuse `=` for `==`.
+> ***SUPER-IMPORTANT***: In the assignment expression `=` means "assignment". It does not mean "what's on the left of the `=` is equal to what's on the right." In math courses, we use `=` to say that the expressions on either side of the `=` are the same. JavaScript uses `==` and `===` for that purpose. It's very common &mdash; and very confusing &mdash; for beginners to have bugs where they confuse `=` for `==` or `===`.
 
 ## Define Mutability / Immutability
 
