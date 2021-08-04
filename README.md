@@ -2,9 +2,9 @@
 
 ## Learning Goals
 
-* Define the _Assignment Expression_
-* Define Mutability / Immutability
-* Learn what the Return Value of an _Assignment Expression_ is
+- Define the _Assignment Expression_
+- Define Mutability / Immutability
+- Learn what the Return Value of an _Assignment Expression_ is
 
 ## Introduction
 
@@ -24,8 +24,8 @@ can think about a variable name as a label you put on a box. Using this
 metaphor, the box labeled `aFunNumber` contains the value `3 * (10 - 4)`, and
 the box labeled `myBirthYear` contains the value `1989`.
 
-We create the association between a variable name and a value by using the second
-of our **essential three expressions**: the _assignment expression_.
+We create the association between a variable name and a value by using the
+second of our **essential three expressions**: the _assignment expression_.
 
 ## Define the _Assignment Expression_
 
@@ -36,14 +36,17 @@ In JavaScript, the assignment expression is like so:
 Here are some examples:
 
 ```js
-aFunNumber = 3 * (10 - 4)
-myBirthYear = 1989
+aFunNumber = 3 * (10 - 4);
+myBirthYear = 1989;
 ```
 
 Variable names are most often descriptions of what their assigned expressions
 _mean_. In JavaScript, when a variable name is made of multiple words, every
 word after the first is capitalized. This is referred to as _camelCase_ and
-although it isn't strictly required, it is a common convention in JavaScript. 
+although it isn't strictly required, it is a common convention in JavaScript.
+
+> **Note**: In JavaScript, it's _optional_ to include a semi-colon at the end of
+> each line. You may encounter JavaScript expressions written both ways.
 
 While you _can include_ numbers and some symbols in variable names, let's keep
 things simple for the moment and just use camelCased letters.
@@ -51,16 +54,16 @@ things simple for the moment and just use camelCased letters.
 Consider the following expression:
 
 ```js
-maximumSpeed
+maximumSpeed;
 ```
 
-Run this alone in a REPL, and we get an error
+Run this alone in a REPL, and we get an error:
 
 ```text
 ReferenceError: maximumSpeed is not defined
 ```
 
-followed by many lines starting with `at...`. Here, JavaScript, by default,
+...followed by many lines starting with `at...`. Here, JavaScript, by default,
 doesn't know anything about `maximumSpeed`.
 
 <iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/OrderlyDeadParticle?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
@@ -74,7 +77,12 @@ Notice that `maximumSpeed = 9000`, the assignment expression, evaluates to
 `9000` when run. Once `maximumSpeed` is defined, JavaScript will know what
 it is. (We'll look at this more closely in the next lesson.)
 
-> ***SUPER-IMPORTANT***: In the assignment expression `=` means "assignment". It does not mean "what's on the left of the `=` is equal to what's on the right." In math courses, we use `=` to say that the expressions on either side of the `=` are the same. JavaScript uses `==` and `===` for that purpose. It's very common — and very confusing — for beginners to have bugs where they confuse `=` for `==` or `===`.
+> **_SUPER-IMPORTANT_**: In the assignment expression `=` means "assignment". It
+> does not mean "what's on the left of the `=` is equal to what's on the right."
+> In math courses, we use `=` to say that the expressions on either side of the
+> `=` are the same. JavaScript uses `==` and `===` for that purpose. It's very
+> common — and very confusing — for beginners to have bugs where they confuse
+> `=` for `==` or `===`.
 
 ## Define Mutability / Immutability
 
@@ -88,13 +96,13 @@ each time. Here's "mutability" in action:
 Many years ago my height in centimeters was:
 
 ```js
-heightInCentimeters = 50
+heightInCentimeters = 50;
 ```
 
 But today it is:
 
 ```js
-heightInCentimeters = 180
+heightInCentimeters = 180;
 ```
 
 We can try these out in REPL:
@@ -112,16 +120,22 @@ more detail on constants in the next part of this course.
 The return value of an _assignment expression_ is the evaluated result of the
 expression to the right of the `=`.
 
-```ruby
-recurringExpressionValue = 3 * (10 - 4)
-=> 18
+```js
+recurringExpressionValue = 3 * (10 - 4);
+// 18
 ```
 
-Pay attention here: the return value of the assignment expression ***IS NOT THE
-SAME THING*** as getting the value out of the variable name. We'll learn to get
+Pay attention here: the return value of the assignment expression **_IS NOT THE
+SAME THING_** as getting the value out of the variable name. We'll learn to get
 the value "back out of a variable" in the next lesson. What JavaScript is saying
 is that the assignment expression's return value is the value of the expression
 to the right of the `=`.
+
+> **Note**: The syntax underneath `recurringExpressionValue` indicates what this
+> expression evaluates to; in this case, it's the number `18`. Any line that
+> starts with `//` in JavaScript is a "comment": it's code that is ignored by
+> the JavaScript engine, but can be used to indicate something to other
+> developers looking at your code.
 
 ## Conclusion
 
