@@ -57,7 +57,7 @@ Consider the following expression:
 maximumSpeed;
 ```
 
-Run this alone in a REPL, and we get an error:
+Run this alone in a REPL console, and we get an error:
 
 ```text
 ReferenceError: maximumSpeed is not defined
@@ -66,12 +66,12 @@ ReferenceError: maximumSpeed is not defined
 ...followed by many lines starting with `at...`. Here, JavaScript, by default,
 doesn't know anything about `maximumSpeed`.
 
-<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/OrderlyDeadParticle?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/OrderlyDeadParticle?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 When we define a variable using the "assignment expression" we add something new
-to JavaScript.
+to JavaScript. Change the code in your conole from `maximumSpeed`, to `maximumSpeed = 9000` and let's see what happens.
 
-<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/OutgoingAlienatedMacrolanguage?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/OutgoingAlienatedMacrolanguage?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Notice that `maximumSpeed = 9000`, the assignment expression, evaluates to
 `9000` when run. Once `maximumSpeed` is defined, JavaScript will know what
@@ -105,9 +105,14 @@ But today it is:
 heightInCentimeters = 180;
 ```
 
-We can try these out in REPL:
+We can try these out in REPL console:
 
-<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/TrueShortMaintenance?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/TrueShortMaintenance?lite=true&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+add `heightInCentimeters = 50;` into your console and hit `enter`. We get a return
+value of 180 as expected. Next, `heightInCentimeters = 180;`, and we should get a 
+return value of 180. Now, just type `heightInCentimeters` and let's see what the
+return value is! 
 
 Sometimes, we might want to make a variable's value permanent. We might want to
 say "hey, this value should not change." We want to say that the value is
