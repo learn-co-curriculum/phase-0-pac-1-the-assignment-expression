@@ -66,16 +66,19 @@ ReferenceError: maximumSpeed is not defined
 ...followed by many lines starting with `at...`. Here, JavaScript, by default,
 doesn't know anything about `maximumSpeed`.
 
-<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/OrderlyDeadParticle?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 When we define a variable using the "assignment expression" we add something new
-to JavaScript.
+to JavaScript. Add an assignment expression like the following to your code and
+hit enter.
 
-<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/OutgoingAlienatedMacrolanguage?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+`maximumSpeed = 9000`
 
-Notice that `maximumSpeed = 9000`, the assignment expression, evaluates to
-`9000` when run. Once `maximumSpeed` is defined, JavaScript will know what
-it is. (We'll look at this more closely in the next lesson.)
+Notice that by using the assignment expression, `maximumSpeed = 9000`, our code
+evaluates to `9000` when run. Once `maximumSpeed` is defined, JavaScript will
+know what it is. Now try putting just `maximumSpeed` in and hitting enter and
+you'll see that JavaScript remembered it's value! (We'll look at this more
+closely in the next lesson.)
 
 > **_SUPER-IMPORTANT_**: In the assignment expression `=` means "assignment". It
 > does not mean "what's on the left of the `=` is equal to what's on the right."
@@ -91,7 +94,7 @@ to" can be changed during the running of the program. Being able to change the
 value a variable points to is very important. For example, if we need to do
 something 10 times, we need a variable to keep track of how many times the thing
 happens. That variable will need to change: its value will need to increase by 1
-each time. Here's "mutability" in action:
+each time. Here's _"mutability"_ in action:
 
 Many years ago my height in centimeters was:
 
@@ -107,7 +110,7 @@ heightInCentimeters = 180;
 
 We can try these out in REPL:
 
-<iframe height="400px" width="100%" src="https://repl.it/@MaxwellBenton2/TrueShortMaintenance?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Sometimes, we might want to make a variable's value permanent. We might want to
 say "hey, this value should not change." We want to say that the value is
