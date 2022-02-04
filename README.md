@@ -66,18 +66,21 @@ ReferenceError: maximumSpeed is not defined
 ...followed by many lines starting with `at...`. Here, JavaScript, by default,
 doesn't know anything about `maximumSpeed`.
 
-<iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 When we define a variable using the "assignment expression" we add something new
-to JavaScript. Add an assignment expression like the following to your code and
-hit enter.
+to JavaScript.
 
-`maximumSpeed = 9000`
+```js
+maximumSpeed = 9000
+```
+
+Let's try this out in REPL:
+
+<iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 Notice that by using the assignment expression, `maximumSpeed = 9000`, our code
 evaluates to `9000` when run. Once `maximumSpeed` is defined, JavaScript will
 know what it is. Now try putting just `maximumSpeed` in and hitting enter and
-you'll see that JavaScript remembered it's value! (We'll look at this more
+you'll see that JavaScript remembered its value! (We'll look at this more
 closely in the next lesson.)
 
 > **_SUPER-IMPORTANT_**: In the assignment expression `=` means "assignment". It
@@ -94,23 +97,31 @@ to" can be changed during the running of the program. Being able to change the
 value a variable points to is very important. For example, if we need to do
 something 10 times, we need a variable to keep track of how many times the thing
 happens. That variable will need to change: its value will need to increase by 1
-each time. Here's _"mutability"_ in action:
+each time. Here's _mutability_ in action:
 
-Many years ago my height in centimeters was:
+Let's test try out in REPL:
+
+<iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+
+Many years ago my height in centimeters was 50cm, go ahead and add the following
+line into the console:
 
 ```js
 heightInCentimeters = 50;
 ```
 
-But today it is:
+But today my height is 180cm. Let's now put the following code into the console:
 
 ```js
 heightInCentimeters = 180;
 ```
 
-We can try these out in REPL:
+Now that we have assigned `heightInCentimeters` to two different values, what do
+you think the console will return if we just type `heightInCentimeters` and hit
+enter? Let's try it out!
 
-<iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+If you guessed we would see a return value of `180`, you were right! The last
+value assigned to the variable is what is saved.
 
 Sometimes, we might want to make a variable's value permanent. We might want to
 say "hey, this value should not change." We want to say that the value is
