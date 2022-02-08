@@ -103,7 +103,7 @@ Let's test try out in REPL:
 
 <iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
-Many years ago my height in centimeters was 50cm, go ahead and add the following
+Many years ago my height in centimeters was 50cm; go ahead and add the following
 line into the console:
 
 ```js
