@@ -63,8 +63,7 @@ Run this alone in a REPL, and we get an error:
 ReferenceError: maximumSpeed is not defined
 ```
 
-...followed by many lines starting with `at...`. Here, JavaScript, by default,
-doesn't know anything about `maximumSpeed`.
+Here, JavaScript, by default, doesn't know anything about `maximumSpeed`.
 
 When we define a variable using the "assignment expression" we add something new
 to JavaScript.
@@ -73,7 +72,7 @@ to JavaScript.
 maximumSpeed = 9000
 ```
 
-Let's try this out in REPL:
+Let's try this out in the REPL:
 
 <iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
@@ -99,16 +98,14 @@ something 10 times, we need a variable to keep track of how many times the thing
 happens. That variable will need to change: its value will need to increase by 1
 each time. Here's _mutability_ in action:
 
-Let's test try out in REPL:
-
-<iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
-
 Many years ago my height in centimeters was 50cm; go ahead and add the following
-line into the console:
+line into the REPL's console:
 
 ```js
 heightInCentimeters = 50;
 ```
+
+<iframe height="400px" width="100%" src="https://replit.com/@lizbur10/Sandbox?lite=1&outputonly=1" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
 
 But today my height is 180cm. Let's now put the following code into the console:
 
@@ -136,7 +133,7 @@ expression to the right of the `=`.
 
 ```js
 recurringExpressionValue = 3 * (10 - 4);
-// 18
+// => 18
 ```
 
 Pay attention here: the return value of the assignment expression **_IS NOT THE
@@ -145,7 +142,7 @@ the value "back out of a variable" in the next lesson. What JavaScript is saying
 is that the assignment expression's return value is the value of the expression
 to the right of the `=`.
 
-> **Note**: The syntax underneath `recurringExpressionValue` indicates what this
+> **Note**: The line underneath `recurringExpressionValue` indicates what this
 > expression evaluates to; in this case, it's the number `18`. Any line that
 > starts with `//` in JavaScript is a "comment": it's code that is ignored by
 > the JavaScript engine, but can be used to indicate something to other
