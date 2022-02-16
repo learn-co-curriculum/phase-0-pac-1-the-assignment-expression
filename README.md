@@ -69,7 +69,7 @@ When we define a variable using the "assignment expression" we add something new
 to JavaScript.
 
 ```js
-maximumSpeed = 9000
+maximumSpeed = 9000;
 ```
 
 Let's try this out in the REPL:
