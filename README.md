@@ -150,8 +150,8 @@ to the right of the `=`.
 
 ## Conclusion
 
-Think about a baby who has never spoken before. Before it stands a parent saying
-their name over and over (...and over) again.
+Think about a baby who has never spoken before. The parent stands in front of
+it saying their name over and over (...and over) again.
 
 ![Learning to talk 1](https://curriculum-content.s3.amazonaws.com/phase-0/the-assignment-expression/Image_55_Mama-Baby_1.png)
 
