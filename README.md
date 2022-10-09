@@ -31,7 +31,7 @@ second of our **essential three expressions**: the _assignment expression_.
 
 In JavaScript, the assignment expression is like so:
 
-![Assignment Expression Graphic](https://curriculum-content.s3.amazonaws.com/phase-0/the-assignment-expression/assigning-a-variable.jpg)
+![Assignment Expression Graphic. Variable name followed by an assignment operator followed by an expression. In this example the variable name is heightInCentimeters followed by an equal sign as the assignment operator followed by an expression like 180 or 160+2](https://curriculum-content.s3.amazonaws.com/phase-0/the-assignment-expression/assigning-a-variable.jpg)
 
 Here are some examples:
 
@@ -153,7 +153,7 @@ to the right of the `=`.
 Think about a baby who has never spoken before. The parent stands in front of
 it saying their name over and over (...and over) again.
 
-![Learning to talk 1](https://curriculum-content.s3.amazonaws.com/phase-0/the-assignment-expression/Image_55_Mama-Baby_1.png)
+![Learning to talk 1. A mom trying to teach a baby to assign their face to the variable name "Mama" or "Dada".](https://curriculum-content.s3.amazonaws.com/phase-0/the-assignment-expression/Image_55_Mama-Baby_1.png)
 
 They wave towards their bodies and say their names again and again. What the
 parent is trying to do is teach the baby to assign their face to the variable
@@ -164,7 +164,7 @@ teach the baby the second of the _three essential expressions_: the assignment
 expression. Then, one magical day, it clicks for the baby. It performs an
 assignment in its precious little head:
 
-![Learning to talk 2](https://curriculum-content.s3.amazonaws.com/phase-0/the-assignment-expression/Image_55_Mama-Baby_2.png)
+![Learning to talk 2. The Mom is still sad; she doesn't know if the baby has assigned the word "mama": to the correct person.](https://curriculum-content.s3.amazonaws.com/phase-0/the-assignment-expression/Image_55_Mama-Baby_2.png)
 
 Unfortunately, Mom is still sad; she doesn't have any _proof_ that the
 assignment was successful. For that to work, the baby will need to prove that it
